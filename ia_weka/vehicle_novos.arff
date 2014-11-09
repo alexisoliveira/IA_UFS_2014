@@ -1,0 +1,32 @@
+@relation vehicle
+
+@attribute 'COMPACTNESS' real
+@attribute 'CIRCULARITY' real
+@attribute 'DISTANCE CIRCULARITY' real
+@attribute 'RADIUS RATIO' real
+@attribute 'PR.AXIS ASPECT RATIO' real
+@attribute 'MAX.LENGTH ASPECT RATIO' real
+@attribute 'SCATTER RATIO' real
+@attribute 'ELONGATEDNESS' real
+@attribute 'PR.AXIS RECTANGULARITY' real
+@attribute 'MAX.LENGTH RECTANGULARITY' real
+@attribute 'SCALED VARIANCE_MAJOR' real
+@attribute 'SCALED VARIANCE_MINOR' real
+@attribute 'SCALED RADIUS OF GYRATION'  real
+@attribute 'SKEWNESS ABOUT_MAJOR' real
+@attribute 'SKEWNESS ABOUT_MINOR' real
+@attribute 'KURTOSIS ABOUT_MAJOR' real
+@attribute 'KURTOSIS ABOUT_MINOR' real
+@attribute 'HOLLOWS RATIO' real
+@attribute 'Class' {opel,saab,bus,van}
+
+@data
+94,48,83,178,72,10,162,42,20,159,176,379,184,70,6,16,187,198,?
+90,41,84,141,57,9,149,45,19,143,170,330,158,72,9,14,189,200,?
+104,50,106,209,66,10,207,32,23,158,223,635,220,73,14,9,188,196,?
+106,52,106,209,66,10,210,32,23,160,223,635,220,73,14,9,190,195,?
+85,44,70,205,103,52,149,45,19,144,241,325,188,127,9,11,180,183,?
+106,57,106,172,50,6,255,26,28,169,280,957,264,85,5,9,181,184,?
+%
+%
+%
