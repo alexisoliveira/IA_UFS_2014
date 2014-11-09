@@ -1,0 +1,29 @@
+@relation arq_bayes
+
+@attribute Name {python,salmon,whale,frog,komodo,bat,pigeon,cat,'leopard shark',turtle,penguin,porcupine,eel,salamander,'gila monster',platypus,owl,dolphin,eagle,human}
+@attribute 'Give Birth' {no,yes}
+@attribute 'Can Fly' {no,yes}
+@attribute 'Live in Water' {no,yes,sometimes}
+@attribute 'Have Legs' {no,yes}
+@attribute Class {reptiles,fishes,mammals,amphibians,birds}
+
+@data
+python,no,no,no,no,reptiles
+salmon,no,no,yes,no,fishes
+whale,yes,no,yes,no,mammals
+frog,no,no,sometimes,yes,amphibians
+komodo,no,no,no,yes,reptiles
+bat,yes,yes,no,yes,mammals
+pigeon,no,yes,no,yes,birds
+cat,yes,no,no,yes,mammals
+'leopard shark',yes,no,yes,no,fishes
+turtle,no,no,sometimes,yes,reptiles
+penguin,no,no,sometimes,yes,birds
+porcupine,yes,no,no,yes,mammals
+eel,no,no,yes,no,fishes
+salamander,no,no,sometimes,yes,amphibians
+'gila monster',no,no,no,yes,reptiles
+platypus,no,no,no,yes,mammals
+owl,no,yes,no,yes,birds
+dolphin,yes,no,yes,no,mammals
+eagle,no,yes,no,yes,birds
