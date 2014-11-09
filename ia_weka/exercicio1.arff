@@ -1,0 +1,41 @@
+@relation exercicio
+
+@ATTRIBUTE P	{Y,N}
+@ATTRIBUTE Q 	{Y,N}
+@ATTRIBUTE R	{1,2,3}
+@ATTRIBUTE C 	{N,Y}
+
+@DATA
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,1,N
+Y,Y,2,Y
+Y,Y,3,Y
+Y,Y,3,Y
+Y,N,1,Y
+Y,N,1,Y
+Y,N,1,Y
+Y,N,1,Y
+Y,N,1,Y
+Y,N,1,Y
+Y,N,1,Y
+Y,N,1,Y
+Y,N,2,Y
+Y,N,2,Y
