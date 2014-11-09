@@ -7,7 +7,7 @@ import weka.classifiers.bayes.NaiveBayes;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
-public class NaveBayes {
+public class Naive_Bayes {
 
   public static void main(String args[]) throws Exception {
 
@@ -16,7 +16,7 @@ public class NaveBayes {
 	dados.setClassIndex(dados.numAttributes() - 1);
     
     NaiveBayes nb = new NaiveBayes();
-    nb.	buildClassifier(dados);   
+    nb.buildClassifier(dados);   
     
     Evaluation eval = new Evaluation(dados);
     eval.crossValidateModel(nb, dados, 10, new Random(1));
